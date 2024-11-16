@@ -1,0 +1,14 @@
+scikit-learn-extra==0.3.0
+numpy==1.26.4
+pandas==2.1.4
+seaborn==0.13.1
+matplotlib==3.7.1
+geopandas==1.0.1
+ipython==7.34.0
+lxml==4.9.4
+scikit-learn==1.5.2
+xgboost==2.1.1
+requests==2.32.3
+tqdm==4.66.6
+shapely==2.0.6
+geopy==2.4.1
