@@ -23,12 +23,20 @@ Help buyers make more informed decisions on:
 - Given a set of features about the flat, can we determine its price adjusted for inflation (base of 2017 Q1)
 
 # Models Used:
-- Decision Trees
-- Random Forest
-- XGBoost
+- Decision Trees<br>
+&nbsp;&nbsp;&nbsp; - Used due to EDA proving splits help boost correlation with continuous features. A combination as such &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;using Decision Trees may prove useful.
+- Random Forest<br>
+&nbsp;&nbsp;&nbsp; - Used knowing that a ensemble of Decision Trees may better aid predictions on certain flats 
+- XGBoost<br>
+&nbsp;&nbsp;&nbsp; - Weak learners (e.g. decision trees) are stacked sequential that may help improve on predictions of a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;single iteration of output from decision tree
 
 # Conclusion:
 <b>1.</b> Flat types, Remaining lease and Town are the top 3 features in predicting the price of the resale HDB flats<br><br>
+<b>2.</b> Central areas tend to command higher prices. This might be due to proximity to other parts in Singapore or the Central business district<br><br>
+<b>3.</b> In general, flats of higher prices produce larger errors<br><br>
+<b>4.</b> Distance features may not be as important to narrow down the prediction of adjusted_price to values near actual adjusted_price<br><br>
+<b>5.</b> The model can be used to identify if HDB Resale Flat is worth its listed price with exceptions to Multi-generation. This may be due to the limited data available.
+
 
 # What did we learn:
 <b>1.</b> Feature engineering such as clustering, ordinal encoding by medians, feature creation<br><br>
