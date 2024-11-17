@@ -10,7 +10,7 @@ Please go through the notebooks in this order:
 
 # Contributors:
 - @ShadowYR1 - Data Scraping and collating, EDA, Base model training
-- @ignit333 - EDA, [Expermental EDA on Distance to primary school](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb), Presentation slides
+- @ignit333 - EDA, [Expermental EDA on Distance to Schools](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb), Presentation slides
 - @Lazermaster - EDA, Hyperparameter tuning, GridSearch
 # Motivations:
 <b>1.</b> How can we help buyers know if a flat is worth its price?
