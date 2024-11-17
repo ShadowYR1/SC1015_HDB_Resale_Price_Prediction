@@ -6,7 +6,7 @@ This is a mini project for SC1015 (Introduction to Data Science and Artificial I
 Please go through the notebooks in this order:
 1. [Preprocessing_Scraping](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Preprocess_Scraping.ipynb) (Dataset already has scraped data combined)
 2. [EDA](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_EDA.ipynb)
-3. [Experimental EDA (Distance To School)](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb)
+3. [Feature Experimentation (Distance To School)](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb)
 4. [Feature_Selection_Model_Training](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Feature_Selection_Model_Training.ipynb)
 
 # Contributors:
@@ -33,7 +33,7 @@ Help buyers make more informed decisions on:
 # What did we learn:
 <b>1.</b> Feature engineering such as clustering, ordinal encoding by medians, feature creation<br><br>
 <b>2.</b> How to work with models such as XGBoost and Random Forest<br><br>
-<b>3.</b> How to tune hyperparameter of models such as Scikit-Learn’s GridSearchCV
+<b>3.</b> How to tune hyperparameter of models using methods like GridSearchCV
 
 # References
 https://github.com/chengguan/pyonemap/blob/main/pyonemap/onemap.py<br><br>
