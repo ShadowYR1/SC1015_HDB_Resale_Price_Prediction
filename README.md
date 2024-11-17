@@ -10,7 +10,7 @@ Please go through the notebooks in this order:
 
 # Contributors:
 - @ShadowYR1 - Data Scraping and collating, EDA, Base model training
-- EDA, [Expermental EDA on Distance to primary school](), Presentation slides
+- @ignit333 - EDA, [Expermental EDA on Distance to primary school](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb), Presentation slides
 - @Lazermaster - EDA, Hyperparameter tuning, GridSearch
 # Motivations:
 <b>1.</b> How can we help buyers know if a flat is worth its price?
@@ -36,14 +36,14 @@ Please go through the notebooks in this order:
 <b>3.</b> How to hyperparameter tune with methods such as scikit-learn’s RandomizedSearchCV
 
 # References
-https://github.com/chengguan/pyonemap/blob/main/pyonemap/onemap.py
-https://www.businesstimes.com.sg/property/hdb-resale-prices-continue-rising-october-while-transaction-volume-falls-srx-99-co
-https://www.channelnewsasia.com/commentary/singapore-hdb-flats-million-dollar-resale-deals-public-housing-sentiment-affordability-4728281
-https://www.straitstimes.com/singapore/housing/number-of-million-dollar-hdb-flats-resold-hit-all-time-high-in-june-prices-up-18-srx-99co
-https://www.moe.gov.sg/primary/p1-registration/distance
-https://www.creativecampus.com.sg/best-primary-schools-in-singapore-2024
-https://www.creativecampus.com.sg/best-secondary-schools-in-singapore-2024
-https://www.creativecampus.com.sg/top-junior-colleges-jc-in-singapore-2024
+https://github.com/chengguan/pyonemap/blob/main/pyonemap/onemap.py<br><br>
+https://www.businesstimes.com.sg/property/hdb-resale-prices-continue-rising-october-while-transaction-volume-falls-srx-99-co<br><br>
+https://www.channelnewsasia.com/commentary/singapore-hdb-flats-million-dollar-resale-deals-public-housing-sentiment-affordability-4728281<br><br>
+https://www.straitstimes.com/singapore/housing/number-of-million-dollar-hdb-flats-resold-hit-all-time-high-in-june-prices-up-18-srx-99co<br><br>
+https://www.moe.gov.sg/primary/p1-registration/distance<br><br>
+https://www.creativecampus.com.sg/best-primary-schools-in-singapore-2024<br><br>
+https://www.creativecampus.com.sg/best-secondary-schools-in-singapore-2024<br><br>
+https://www.creativecampus.com.sg/top-junior-colleges-jc-in-singapore-2024<br><br>
 
 # Datasets Used:
 [ResaleflatpricesbasedonregistrationdatefromJan2017onwards](https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view)
