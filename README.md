@@ -11,13 +11,13 @@ Please go through the notebooks in this order:
 
 # Contributors:
 - @ShadowYR1 - Dataset Curation (Scraping + Merging), EDA, ML Model Training
-- @ignit333 - EDA, Distance Experimentation, Presentation Slides
+- @ignit333 - EDA, Feature Experimentation, Presentation Slides
 - @Lazermaster - EDA, Hyperparameter Tuning (GridSearchCV)
 
 # Motivations:
 Help buyers make more informed decisions on:
-<b>1.</b> Which resale HDB flat to choose
-<b>2.</b> Whether a resale HDB flat is worth its listed price
+1. Which resale HDB flat to choose
+2. Whether a resale HDB flat is worth its listed price
 
 # Problem Definition:
 - Given a set of features about the flat, can we determine its price adjusted for inflation (base of 2017 Q1)
