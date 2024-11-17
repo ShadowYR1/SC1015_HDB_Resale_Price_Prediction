@@ -1,20 +1,23 @@
 # HDB Resale Price Prediction
 
 # About
-This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence which focuses on resale flats that were sold as listed in [Resale flat prices based on registration date from Jan-2017 onwards](https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view). (Data up to 2024 Q2 was used)
+This is a mini project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on HDB resale flats that were sold as listed in [Resale flat prices based on registration date from Jan-2017 onwards](https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view). (Data up to 2024 Q2 was used)
 
 Please go through the notebooks in this order:
 1. [Preprocessing_Scraping](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Preprocess_Scraping.ipynb) (Dataset already has scraped data combined)
 2. [EDA](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_EDA.ipynb)
-3. [Feature_Selection_Model_Training](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Feature_Selection_Model_Training.ipynb)
+3. [Experimental EDA (Distance To School)](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb)
+4. [Feature_Selection_Model_Training](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Feature_Selection_Model_Training.ipynb)
 
 # Contributors:
-- @ShadowYR1 - Data Scraping and collating, EDA, Base model training
-- @ignit333 - EDA, [Expermental EDA on Distance to Schools](https://github.com/ShadowYR1/SC1015_HDB_Resale_Price_Prediction/blob/main/SC1015_Experimental_EDA.ipynb), Presentation slides
-- @Lazermaster - EDA, Hyperparameter tuning, GridSearch
+- @ShadowYR1 - Dataset Curation (Scraping + Merging), EDA, ML Model Training
+- @ignit333 - EDA, Distance Experimentation, Presentation Slides
+- @Lazermaster - EDA, Hyperparameter Tuning (GridSearchCV)
+
 # Motivations:
-<b>1.</b> How can we help buyers know if a flat is worth its price?
-<b>2.</b> How can we help buyers better negotiate prices of resale flats?
+Help buyers make more informed decisions on:
+<b>1.</b> Which resale HDB flat to choose
+<b>2.</b> Whether a resale HDB flat is worth its listed price
 
 # Problem Definition:
 - Given a set of features about the flat, can we determine its price adjusted for inflation (base of 2017 Q1)
@@ -25,15 +28,12 @@ Please go through the notebooks in this order:
 - XGBoost
 
 # Conclusion:
-<b>1.</b> Flat types plays a major role in the price of the resale flat<br><br>
-<b>2.</b> Central areas tend to command higher prices. This might be due to proximity to other parts in Singapore or the Central business district<br><br>
-<b>3.</b> Higher value resale flats such as those near a million dollars in general have higher errors and larger error standard deviation. This might also suggest the value of such flats are more subjective and less deterministic. It might also be the relatively lesser amounts of data of such flats.<br><br>
-<b>4.</b> Distance features may not be as significant in pricing. 
+<b>1.</b> Flat types, Remaining lease and Town are the top 3 features in predicting the price of the resale HDB flats<br><br>
 
 # What did we learn:
-<b>1.</b> Feature engineering such as clustering categories and ordinal encoding by medians<br><br>
-<b>2.</b> How to work with models such as Random Forest and XGBoost<br><br>
-<b>3.</b> How to hyperparameter tune with methods such as scikit-learn’s RandomizedSearchCV
+<b>1.</b> Feature engineering such as clustering, ordinal encoding by medians, feature creation<br><br>
+<b>2.</b> How to work with models such as XGBoost and Random Forest<br><br>
+<b>3.</b> How to tune hyperparameter of models such as Scikit-Learn’s GridSearchCV
 
 # References
 https://github.com/chengguan/pyonemap/blob/main/pyonemap/onemap.py<br><br>
